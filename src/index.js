@@ -1,5 +1,9 @@
 import Hangman from './hangman'
 import getPuzzle from './requests'
+import {
+    v4 as uuidv4
+} from 'uuid';
+console.log(uuidv4());
 
 const puzzleEl = document.querySelector('#puzzle')
 
