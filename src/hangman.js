@@ -24,10 +24,10 @@ class Hangman {
             return `Well Done `
         }
         if (this.status === "playing") {
-            return `remaining guess ${this.remainingGuesses}`
+            return `BE CAREFUL!!  You Have ${this.remainingGuesses} Remaining Guess `
 
         } else {
-            return `Nice Try!! The word is ${wordGuessed}`
+            return `Nice Try!! The word is >>> ${wordGuessed}`
         }
     }
 

@@ -10,7 +10,7 @@ html {
 
 body {
   background: #2b292e;
-  color: #fafafa;
+  color: #db341e;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   display: flex;
@@ -30,7 +30,12 @@ span {
   text-transform: uppercase;
   width: 2.4rem;
 }
-
+.place{
+  background-color: rgb(0, 255, 191);
+  height:80vh;
+  text-align: center;
+  padding: 3em;
+}
 p {
   font-weight: 300;
   margin-bottom: 0.8rem;
@@ -39,6 +44,11 @@ p {
 .puzzle {
   display: flex;
   margin-bottom: 4.8rem;
+  background-color: rgb(216, 231, 9);
+  text-transform: uppercase;
+  text-align: center;
+margin-left:3em;
+border-bottom: 1px solid black;
 }
 
 .button {

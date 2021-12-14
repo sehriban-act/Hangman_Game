@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
     entry: ['core-js/stable', 'regenerator-runtime/runtime', './src/index.js'],
     output: {
-        path: path.resolve(__dirname, './public/scripts'),
+        path: path.resolve(__dirname, 'public/scripts'),
         filename: 'bundle.js'
     },
     module: {
